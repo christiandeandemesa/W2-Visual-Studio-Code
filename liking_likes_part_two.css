@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    height: 100vh;
+    width: auto;
+    margin: 0% 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 18%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.network {
+    height: 45%;
+    width: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.network h1 {
+    margin: 3%;
+}
+
+.your_feed {
+    height: 55%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    height: 82%;
+    width: auto;
+    display: flex;
+}
+
+.left_col {
+    height: 100%;
+    width: 22%;
+    margin-top: 1%;
+    display: flex;
+}
+
+.profile {
+    height: 50%;
+    width: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile div {
+    height: 33%;
+    width: auto;
+}
+
+.profile div img{
+    margin-top: 15%;
+}
+
+.profile div h3{
+    margin-top: 30%;
+}
+
+.profile div h3 a{
+    color: blue;
+}
+
+.profile div h2{
+    margin: 5% 5%;
+}
+
+.profile_pic {
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    align-self: flex-start;
+}
+
+.right_col {
+    height: 100%;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.family{
+    height: 30%;
+    width: 94%;
+    margin-left: 5%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.family_header {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left_family_header {
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.right_family_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 25%;
+}
+
+.right_family_header {
+    font-weight: bold;
+}
+
+.right_family_header button {
+    background-color: yellow;
+    height: 30%;
+    width: 35%;
+    box-shadow: 3px 3px black;
+    font-weight: bold;
+}
+
+.family_body {
+    display: flex;
+    height: 50%;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.family_body p{
+    font-weight: bold;
+}
+
+.family_body p a{
+    color: blue;
+}
